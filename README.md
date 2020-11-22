@@ -15,6 +15,7 @@
 |[The Power of Habit](https://www.amazon.com/Power-Habit-Why-What-Change-ebook/dp/B006WAIV6M/ref=sr_1_1?dchild=1&keywords=The+power+of+habit&qid=1605990001&s=digital-text&sr=1-1)|Self-Help|Done|
 |[Rich Dad Poor Dad](https://www.amazon.com/Rich-Dad-Poor-Teach-Middle-ebook/dp/B07C7M8SX9/ref=sr_1_1?crid=3D4CTXDHMPV4G&dchild=1&keywords=rich+dad+poor+dad&qid=1605990103&s=digital-text&sprefix=rich+dad%2Cdigital-text%2C221&sr=1-1)|Self-Help|Done|
 |[A thousand splendid suns](https://www.amazon.com/Thousand-Splendid-Suns-Khaled-Hosseini-ebook/dp/B002R88G5E/ref=sr_1_1?crid=3AQGPB5FZJ10G&dchild=1&keywords=a+thousand+splendid+suns&qid=1605990158&s=digital-text&sprefix=A+thous%2Cdigital-text%2C225&sr=1-1)|Fiction|Done|
+|[The Kite Runner](https://www.amazon.ca/Kite-Runner-Khaled-Hosseini/dp/0385660073/ref=sr_1_1?dchild=1&keywords=kite+runner&qid=1606015933&sr=8-1)   |Fiction   |Done   |
 |[The Alchemist]()   |Fiction   |Done   |
 |[By the River Piedra I Sat Down and Wept]()   | Fiction  |Done   |
 |[The Fault in our stars]()   |Fiction   |Done  |
