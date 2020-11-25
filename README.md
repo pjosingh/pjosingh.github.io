@@ -2,6 +2,7 @@
 
 |Book Name|Genre|Progress|
 |---|---|---|
+|[Man's Search for Meaning](https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI/ref=sr_1_2?dchild=1&keywords=victor+franklin&qid=1606274445&s=digital-text&sr=1-2)|Psychology|In Progress|
 |[Radical Candor](https://www.amazon.com/Radical-Candor-Kim-Scott/dp/B01KTIEFEE)|Business/Psychology|In progress|
 |[Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B005MJFA2W/ref=sr_1_1?crid=1DKVZMUWX5IEG&dchild=1&keywords=thinking+fast+and+slow&qid=1605990067&s=digital-text&sprefix=thinking+fas%2Cdigital-text%2C213&sr=1-1)|Psychology|In progress|
 |[Influence the psychology of persuasion](https://www.amazon.com/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/ref=sr_1_1?crid=2OOWZINS2MM5Y&dchild=1&keywords=influence+the+psychology+of+persuasion&qid=1605989949&s=digital-text&sprefix=influe%2Cdigital-text%2C233&sr=1-1)|Psychology|Done|
