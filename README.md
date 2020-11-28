@@ -4,8 +4,8 @@
 |---|---|---|
 |[Radical Candor](https://www.amazon.com/Radical-Candor-Kim-Scott/dp/B01KTIEFEE)|Business/Psychology|In progress|
 |[Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B005MJFA2W/ref=sr_1_1?crid=1DKVZMUWX5IEG&dchild=1&keywords=thinking+fast+and+slow&qid=1605990067&s=digital-text&sprefix=thinking+fas%2Cdigital-text%2C213&sr=1-1)|Psychology|In progress|
-|[Influence the psychology of persuasion](https://www.amazon.com/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/ref=sr_1_1?crid=2OOWZINS2MM5Y&dchild=1&keywords=influence+the+psychology+of+persuasion&qid=1605989949&s=digital-text&sprefix=influe%2Cdigital-text%2C233&sr=1-1)|Psychology|Done|
 |[Man's Search for Meaning](https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI/ref=sr_1_2?dchild=1&keywords=victor+franklin&qid=1606274445&s=digital-text&sr=1-2)|Psychology|Done|
+|[Influence the psychology of persuasion](https://www.amazon.com/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/ref=sr_1_1?crid=2OOWZINS2MM5Y&dchild=1&keywords=influence+the+psychology+of+persuasion&qid=1605989949&s=digital-text&sprefix=influe%2Cdigital-text%2C233&sr=1-1)|Psychology|Done|
 |[Who Moved My Cheese?](https://www.amazon.com/gp/product/0091883768/ref=x_gr_w_bb_sin?ie=UTF8&tag=x_gr_w_bb_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0091883768&SubscriptionId=1MGPYB6YW3HWK55XCGG2)|Psychology|Done|
 |[The Art of Thnking Clearly](https://www.amazon.com/gp/product/0062219685/ref=x_gr_w_bb_glide_sin?ie=UTF8&tag=x_gr_w_bb_glide_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0062219685&SubscriptionId=1MGPYB6YW3HWK55XCGG2)|Psychology|Done|
 |[Outliers: The Story of Success](https://www.amazon.com/gp/product/0316017922/ref=x_gr_w_bb_sin?ie=UTF8&tag=x_gr_w_bb_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0316017922&SubscriptionId=1MGPYB6YW3HWK55XCGG2)|Psychology|Done|
