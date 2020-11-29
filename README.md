@@ -24,6 +24,7 @@
 |[The Catcher in the Rye](https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769177/ref=sr_1_1?dchild=1&keywords=The+Catcher+in+the+Rye&qid=1606017573&s=books&sr=1-1)   |Fiction   |Done   |
 |[A Walk to Remember](https://www.amazon.com/Walk-Remember-Nicholas-Sparks/dp/1538764695/ref=sr_1_1?dchild=1&keywords=A+Walk+to+Remember&qid=1606017550&s=books&sr=1-1)   |Fiction   |Done   |
 |[To kill a mockingbird](https://www.amazon.com/Kill-Mockingbird-Harper-Lee/dp/0060935464/ref=sr_1_1?dchild=1&keywords=To+kill+a+mockingbird&qid=1606017539&s=books&sr=1-1)   |Fiction   |Done   |
+|[Nothing lasts Forever](https://www.amazon.com/gp/product/0446354732/ref=x_gr_w_bb_glide_sout?ie=UTF8&tag=x_gr_w_bb_glide_sout-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0446354732&SubscriptionId=1MGPYB6YW3HWK55XCGG2)|Fiction|Done|
 |[1984](https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/ref=pd_sbs_14_1/143-7916261-7895460?_encoding=UTF8&pd_rd_i=0451524934&pd_rd_r=7a5b5fd7-b098-4d80-9507-96af05bf22ff&pd_rd_w=FqYW8&pd_rd_wg=Qe3l1&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=05V4T7WHZTRMWKQHT6DS&psc=1&refRID=05V4T7WHZTRMWKQHT6DS)   |Fiction   |Done   |
 |[Animal Farm](https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341/ref=sr_1_1?dchild=1&keywords=Animal+Farm&qid=1606017519&s=books&sr=1-1)   |Fiction   |Done|
 |[A Brief History of Time](https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168)   |Non-Fiction   |Done   |
