@@ -15,4 +15,5 @@ Hi, My name is Prabhjot and i am a Software Engineer from India.
 * [Self Management](./selfManagement)
 
 ***
+
 [Home](https://pjosingh.github.io/tempLandingPage) | [LinkedIn](https://www.linkedin.com/in/prabhjot-singh-6331493b/) | [Instagram](https://www.instagram.com/pjosingh/)
