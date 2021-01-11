@@ -17,6 +17,8 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 <br/>
 
 
+<p align="center">
+
 |Book Name|Genre|Progress|
 |---|---|---|
 |[Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.goodreads.com/book/show/1713426.Predictably_Irrational)|Psychology|In Progress|
@@ -54,6 +56,7 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 |[A Brief History of Time](https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168)   |Non-Fiction   |Done   |
 |   |   |   |
 
+</p>
 
 ***
 
