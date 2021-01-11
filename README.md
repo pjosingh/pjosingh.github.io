@@ -1,4 +1,4 @@
-#### Prabhjot Singh
+### Prabhjot Singh
 
 
 ![](size_dp.jpg)  
@@ -6,7 +6,9 @@
 Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on [pjosingh@gmail.com](mailto:pjosingh@gmail.com)
 
 
-#### Now Reading
+### Now Reading
+
+> #### To live is to suffer. To survive is to find meaning in the suffering - Man's Search for Meaning
 
 |Book Name|Genre|Progress|
 |---|---|---|
