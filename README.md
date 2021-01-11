@@ -4,8 +4,8 @@
   <img src="https://github.com/pjosingh/pjosingh.github.io/blob/main/size_dp.jpg?raw=true" alt="img"/>
 </p>
 
-<p>
-Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on [pjosingh@gmail.com](mailto:pjosingh@gmail.com)
+<p align="center">
+Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on <a href="mailto:pjosingh@gmail.com"> pjosingh@gmail.com </a>
 </p>
 
 ### Now Reading
@@ -17,8 +17,6 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 <br/>
 <br/>
 
-
-<p align="center">
 
 |Book Name|Genre|Progress|
 |---|---|---|
@@ -57,7 +55,6 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 |[A Brief History of Time](https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168)   |Non-Fiction   |Done   |
 |   |   |   |
 
-</p>
 
 ***
 
