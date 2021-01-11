@@ -9,7 +9,13 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 
 ### Now Reading
 
+<br/>
+
 > #### To live is to suffer. To survive is to find meaning in the suffering - Man's Search for Meaning
+
+<br/>
+<br/>
+
 
 |Book Name|Genre|Progress|
 |---|---|---|
