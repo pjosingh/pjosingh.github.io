@@ -1,7 +1,8 @@
 ### Prabhjot Singh
 
-
-![](size_dp.jpg)  
+<p align="center">
+  <img src="https://github.com/pjosingh/pjosingh.github.io/blob/main/size_dp.jpg?raw=true" alt="img"/>
+</p>
 
 Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on [pjosingh@gmail.com](mailto:pjosingh@gmail.com)
 
