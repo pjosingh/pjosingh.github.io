@@ -1,3 +1,10 @@
+#### Prabhjot Singh
+
+
+![](size_dp.jpg)  
+
+Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on [pjosingh@gmail.com](mailto:pjosingh@gmail.com)
+
 #### Now Reading
 
 |Book Name|Genre|Progress|
