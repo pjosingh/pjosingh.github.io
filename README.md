@@ -8,7 +8,7 @@
 Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software engineer located at Vancouver, Canada. You can reach out to me on <a href="mailto:pjosingh@gmail.com"> pjosingh@gmail.com </a>
 </p>
 
-### Resume 
+### Education 
 
 <table style="width:100%">
 
