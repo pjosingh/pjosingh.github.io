@@ -16,9 +16,9 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
   <td>Software Development Engineer II, Amazon Vancouver. <br><br> Working on Middle mile transportation optimization team. We help Amazon run trucks efficiently all over the world carrying packages sold on Amazon Retail</td> <td>2019 - Present</td></tr>
   <tr><td>Software Development Engineer II, Amazon Gurgaon <br><br> Was part of Core transportation tech team. This team handled overall worldwide shipment tracking and managment of packages being transported from FCs to customers </td> <td>2018</td></tr>
   <tr><td>Software Development Engineer I, Amazon Chennai<br><br>Was part of Amazon devices team. Worked on developing many interesting devices like Fire Tv stick, Fire Phone, fire Tv, Kindle Fire tablet, Kindle E-Ink Tablet</td> <td>2014</td></tr>
-  <tr><td>Software Development Engineer Intern, Amazon Chennai</td> <td>2014</td></tr>
+  <tr><td>Software Development Engineer Intern, Amazon Chennai<br><br> In six months internship in Amazon devices team, worked on developing a Android application with awesome UX which showed its users aggregated usage of all amazon ecosystem products on interactive views. For instance showing books read on calendar, collages of movies seen, etc.</td> <td>2014</td></tr>
   <tr><td>MCA from University of Delhi</td> <td>2011-2014</td></tr>
-  <tr><td>Bsc. Hons Computer Science From University of Delhi </td> <td>2009-2011</td>
+  <tr><td>Bsc. Hons Computer Science From University of Delhi</td> <td>2009-2011</td>
 </tr>
 </table>
 
