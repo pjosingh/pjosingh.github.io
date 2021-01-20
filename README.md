@@ -40,7 +40,8 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 
 |Book Name|Genre|Progress|
 |---|---|---|
-|[Ikigai: The Japanese Secret to a Long and Happy Life]()|Self-Help/Psychology|In progress|
+|[Flow: Living at Peak of your abilities](https://www.amazon.in/Flow-Living-Peak-Your-Abilities/dp/B079CF8GDV/ref=sr_1_1?dchild=1&keywords=flow+Mihaly+Csikszentmihalyi+Ph.D.&qid=1611159428&sr=8-1)|Psychology|In progress|
+|[Ikigai: The Japanese Secret to a Long and Happy Life]()|Self-Help/Psychology|Done|
 |[Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.goodreads.com/book/show/1713426.Predictably_Irrational)|Psychology|Done|
 |[Atomic Habits](https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?dchild=1&gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpt8V43ehCfnDTLNY7M-Bae_5GUHhyLndd4nqrqQTFNAzCz25l0WNesaAr59EALw_wcB&hvadid=284459828597&hvdev=c&hvlocphy=9001528&hvnetw=g&hvqmt=e&hvrand=10067369749011681451&hvtargid=kwd-484824757107&hydadcr=14947_9480929&keywords=atomic+habits&qid=1606940031&sr=8-1&tag=googcana-20)|Psychology|Done|
 |[Man's Search for Meaning](https://www.amazon.ca/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI/ref=sr_1_2?dchild=1&keywords=victor+franklin&qid=1606274445&s=digital-text&sr=1-2)|Psychology|Done|
