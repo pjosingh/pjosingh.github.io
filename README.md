@@ -51,7 +51,7 @@ Hi, My name is Prabhjot Singh. I work at Amazon Development center as a software
 > #### Done Reading 
 
 |Book Name|Genre|
-|---|---|
+|---|---|---|
 |[Ikigai: The Japanese Secret to a Long and Happy Life]()|Self-Help/Psychology|
 |[Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.goodreads.com/book/show/1713426.Predictably_Irrational)|Psychology|
 |[Atomic Habits](https://www.amazon.ca/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?dchild=1&gclid=Cj0KCQiAk53-BRD0ARIsAJuNhpt8V43ehCfnDTLNY7M-Bae_5GUHhyLndd4nqrqQTFNAzCz25l0WNesaAr59EALw_wcB&hvadid=284459828597&hvdev=c&hvlocphy=9001528&hvnetw=g&hvqmt=e&hvrand=10067369749011681451&hvtargid=kwd-484824757107&hydadcr=14947_9480929&keywords=atomic+habits&qid=1606940031&sr=8-1&tag=googcana-20)|Psychology|
