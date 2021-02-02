@@ -63,11 +63,13 @@
                     console.log(data);
 
 
+                    var d = new Date();
+
                     $.ajax({
                         url: 'https://34.211.102.39:443/users',
                         type: "POST",
                         contentType: "application/json",
-                        data: '{"name":"'+data.split("\n")[2]+'"}',
+                        data: '{"name":"'+data.split("\n")[2]+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
                             console.log(result);
