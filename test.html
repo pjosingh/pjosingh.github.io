@@ -23,8 +23,7 @@
                         url: 'https://34.211.102.39:443/users',
                         type: "POST",
                         contentType: "application/json",
-
-                        data: '{"name":"'+data.split("\n").join("")+'"}',
+                        data: '{"name":"'+data.split("\n")[2]+'"}',
                         dataType: "json",
                         success: function (result) {
                             console.log(result);
