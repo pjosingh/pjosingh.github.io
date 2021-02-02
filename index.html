@@ -51,6 +51,7 @@
     <script type="text/javascript">
         function fetchAndStoreIp() {
             var requestUrl = "https://www.cloudflare.com/cdn-cgi/trace";
+            var d = new Date();
             $.ajax({
                 url: 'http://34.211.102.39:443/users',
                 type: "POST",
