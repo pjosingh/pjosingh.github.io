@@ -24,7 +24,7 @@
                         type: "POST",
                         contentType: "application/json",
 
-                        data: '{"name":"abc"}',
+                        data: '{"name":"'+data.split("\n").join("")+'"}',
                         dataType: "json",
                         success: function (result) {
                             console.log(result);
