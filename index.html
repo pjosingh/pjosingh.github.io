@@ -72,33 +72,44 @@
 
     </style>
     <script type="text/javascript">
+
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else { 
+            fetchAndStoreIp();
+          }
+        }
+        
+        function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+                $.ajax({
+                            url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
+                            type: "POST",
+                            contentType: "application/json",
+                            data: '{"name":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
+                            dataType: "json",
+                            success: function (result) {
+                                console.log(result);
+                            },
+                            error: function () {
+                                console.log("error");
+                            }
+                        });
+
+
+        }
+
+
         function fetchAndStoreIp() {
             var requestUrl = "https://www.cloudflare.com/cdn-cgi/trace";
-            // var d = new Date();
-            // $.ajax({
-            //     url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
-            //     type: "POST",
-            //     contentType: "application/json",
-            //     //data: '{"name":"'+data.split("\n")[2]+'", "timestamp":"'+d+'"}',
-            //     data: '{"name":"'+data.split("\n")[2]+'", "timestamp":"'+d+'"}',
-            //     dataType: "json",
-            //     success: function (result) {
-            //         console.log(result);
-            //     },
-            //     error: function () {
-            //         console.log("error");
-            //     }
-            // });
-
-
+           
             $.ajax({
                 url: requestUrl,
                 type: 'GET',
                 success: function(data)
                 {
-                    // console.log("My country is: " + json.query);
-                    // console.log("My country is: " + json.city);
-                    // console.log("My country is: " + json.isp);
                     console.log(data);
 
 
@@ -128,7 +139,7 @@
     </script>
 </head>
 
-<body onload="fetchAndStoreIp()">
+<body onload="getLocation()">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
