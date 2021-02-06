@@ -75,30 +75,34 @@
 
         function getLocation() {
           if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
+            console.log("Geolocation detected:");
+            navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
+            navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
           } else { 
             fetchAndStoreIp();
           }
         }
-        
-        function showPosition(position) {
-              x.innerHTML = "Latitude: " + position.coords.latitude + 
-              "<br>Longitude: " + position.coords.longitude;
+
+        function errorFunction() {
+            console.log("Error!!");
+            fetchAndStoreIp();
+        }
+        function showPosition1(position) {
+            var d = new Date();
+            console.log("Called showPosition");
                 $.ajax({
-                            url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
-                            type: "POST",
-                            contentType: "application/json",
-                            data: '{"name":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
-                            dataType: "json",
-                            success: function (result) {
-                                console.log(result);
-                            },
-                            error: function () {
-                                console.log("error");
-                            }
-                        });
-
-
+                    url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
+                    type: "POST",
+                    contentType: "application/json",
+                    data: '{"name":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
+                    dataType: "json",
+                    success: function (result) {
+                        console.log(result);
+                    },
+                    error: function () {
+                        console.log("error");
+                    }
+                });
         }
 
 
