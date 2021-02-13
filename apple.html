@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+		
+							
+	</head>
+	<body onload="addlistener()">
+		<script type="text/javascript">
+			var speechPrimed = false;
+			function addlistener() {
+				document.getElementById('enable_voice_output').addEventListener('click', primeSpeak);
+				document.getElementById('primed').addEventListener('click', speakSomething);
+			
+			}
+			
+			function primeSpeak(){
+			  if(speechPrimed === false){
+			    var u = new SpeechSynthesisUtterance("Speech is enabled");
+			    speechSynthesis.speak(u);
+			    speechPrimed = true;	
+			  }
+			}
+
+			function speakSomething() {
+				var u = new SpeechSynthesisUtterance("HEllo World");
+			    speechSynthesis.speak(u);
+			}
+
+		</script>
+		<button id="enable_voice_output">click me</button>
+		<button id="primed">Click after priming</button>
+	</body>
+</html>
