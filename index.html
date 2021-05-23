@@ -71,6 +71,42 @@
 
 
     </style>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+    </script>
+    
+    <script type="text/javascript">
+    // Load google charts
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    // Draw the chart and set the chart values
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+      ['Genre', 'Weight'],
+      
+      ['Fiction', 16],
+      ['Psychology', 15],
+      ['Self-Help', 7],
+      ['Business', 2],
+      ['Anthropology', 1],
+      ['Non-Fiction',1]
+    ]);
+
+      // Optional; add a title and set the width and height of the chart
+      var options = { 'width':550, 'height':400,is3D:true};
+
+      // Display the chart inside the <div> element with id="piechart"
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+
+
+
+    }
+    </script>
+    
+    
+    
     <script type="text/javascript">
 
         function getLocation() {
@@ -189,10 +225,8 @@
 
 <hr>
 
-<br>
-<br>
 
-<div class="shadow">
+<!-- <div class="shadow">
     <div class="container">
         <p id="to-live-is-to-suffer-to-survive-is-to-find-meaning-in-the-suffering">To live is to suffer. To survive
             is to find meaning in the suffering</p>
@@ -201,12 +235,12 @@
 
         <p><a href="https://pjosingh.github.io/quotes">More</a></p>
     </div>
-</div>
+</div> -->
 
 <br>
 <br>
 
-
+<div id="piechart"></div>
 
 <table class="styled-table">
     <thead>
@@ -405,10 +439,7 @@
         <td>Non-Fiction</td>
         <td>Done</td>
     </tr>
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
+    
     </tbody>
 </table>
 <hr>
