@@ -178,10 +178,10 @@
                     var d = new Date();
                     
                     $.ajax({
-                        url: 'https://managementbackend20221221194107.azurewebsites.net/weatherForecast',
+                        url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
                         type: "POST",
                         contentType: "application/json",
-                        data: 'UserAgent:"haha"',
+                        data: '"UserAgent":'+navigator.userAgent,
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
