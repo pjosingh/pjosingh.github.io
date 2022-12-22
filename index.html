@@ -176,6 +176,23 @@
 
 
                     var d = new Date();
+                    
+                    $.ajax({
+                        url: 'https://managementbackend20221221194107.azurewebsites.net/weatherForecast',
+                        type: "POST",
+                        contentType: "application/json",
+                        data: 'UserAgent:"haha"',
+                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
+                        dataType: "json",
+                        success: function (result) {
+                            console.log(result);
+                        },
+                        error: function () {
+                            console.log("error");
+                        }
+                    });
+                    
+                    
 
                     $.ajax({
                         url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
