@@ -181,7 +181,7 @@
                         url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
                         type: "POST",
                         contentType: "application/json",
-                        data: '"UserAgent":"'+navigator.userAgent+'"',
+                        data: '{"UserAgent":"'+navigator.userAgent+'"}',
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
