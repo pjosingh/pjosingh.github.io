@@ -149,10 +149,10 @@
             var d = new Date();
             console.log("Called showPosition");
                 $.ajax({
-                    url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
+                    url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                     type: "POST",
                     contentType: "application/json",
-                    data: '{"name":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
+                    data: '{"data":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
                     dataType: "json",
                     success: function (result) {
                         console.log(result);
@@ -161,6 +161,8 @@
                         console.log("error");
                     }
                 });
+
+                /*
             
                 $.ajax({
                         url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
@@ -175,7 +177,7 @@
                         error: function () {
                             console.log("error");
                         }
-                    });
+                    });*/
                     
         }
 
@@ -194,10 +196,10 @@
                     var d = new Date();
                     
                     $.ajax({
-                        url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
+                        url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                         type: "POST",
                         contentType: "application/json",
-                        data: '{"UserAgent":"'+navigator.userAgent+'", "Ip":"'+data.split("\n")[2].split("=")[1]+'", "Location":"'+data.split("\n")[6].split("=")[1]+'"}',
+                        data: '{"data":"'+navigator.userAgent+' + Ip":"'+data.split("\n")[2].split("=")[1]+' + Location":"'+data.split("\n")[6].split("=")[1]+'"}',
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
@@ -208,6 +210,7 @@
                         }
                     });
                     
+                    /*
                     
 
                     $.ajax({
@@ -223,7 +226,7 @@
                         error: function () {
                             console.log("error");
                         }
-                    });
+                    });*/
                 },
                 error: function(err)
                 {
