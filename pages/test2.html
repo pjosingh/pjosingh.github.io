@@ -13,14 +13,7 @@
     <script>
         function sendData() {
             var data = "Sample text";
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    var latitude = position.coords.latitude;
-                    var longitude = position.coords.longitude;
-                    data = "Latitude: " + latitude + ", Longitude: " + longitude;
-                });
-            } else {
-                console.log("navigator not available");
+            console.log("navigator not available");
                 var browserInfo = "Browser Name: " + navigator.appName + "<br>";
                 browserInfo += "Browser Version: " + navigator.appVersion + "<br>";
                 browserInfo += "User Agent: " + navigator.userAgent + "<br>";
@@ -28,7 +21,16 @@
                 browserInfo += "Language: " + navigator.language + "<br>";
 
                 data = browserInfo;
-            }
+
+            // if (navigator.geolocation) {
+            //     navigator.geolocation.getCurrentPosition(function(position) {
+            //         var latitude = position.coords.latitude;
+            //         var longitude = position.coords.longitude;
+            //         data = "Latitude: " + latitude + ", Longitude: " + longitude;
+            //     });
+            // } else {
+                
+            // }
             //var data = document.getElementById('data').value;
             console.log("data" +data);
             fetch('https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==', {
