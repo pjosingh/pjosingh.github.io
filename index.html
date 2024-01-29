@@ -184,7 +184,22 @@
 
         function fetchAndStoreIp() {
             var requestUrl = "https://www.cloudflare.com/cdn-cgi/trace";
-           
+            $.ajax({
+                        url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
+                        type: "POST",
+                        contentType: "application/json",
+                        data: '{"data":"abc"}',
+                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
+                        dataType: "json",
+                        success: function (result) {
+                            console.log(result);
+                        },
+                        error: function () {
+                            console.log("error");
+                        }
+                    });
+/*
+
             $.ajax({
                 url: requestUrl,
                 type: 'GET',
@@ -210,29 +225,12 @@
                         }
                     });
                     
-                    /*
-                    
-
-                    $.ajax({
-                        url: 'https://99dvkvoc4f.execute-api.us-west-2.amazonaws.com/prod',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"name":"'+data.split("\n")[2]+";"+data.split("\n")[5]+'", "timestamp":"'+d+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });*/
                 },
                 error: function(err)
                 {
                     console.log("Request failed, error= " + err);
                 }
-            });
+            });*/
         }
     </script>
 </head>
