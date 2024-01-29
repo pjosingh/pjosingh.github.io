@@ -184,11 +184,16 @@
 
         function fetchAndStoreIp() {
             var requestUrl = "https://www.cloudflare.com/cdn-cgi/trace";
-            $.ajax({
+
+            fetch('https://api.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ipAddress').textContent = data.ip;
+                    $.ajax({
                         url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                         type: "POST",
                         contentType: "application/json",
-                        data: '{"data":"abc"}',
+                        data: '{"data":"'+data.ip+'"}',
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
@@ -198,6 +203,12 @@
                             console.log("error");
                         }
                     });
+
+
+                })
+                .catch(error => console.error('Error fetching IP address:', error));
+                
+            
 /*
 
             $.ajax({
