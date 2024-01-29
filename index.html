@@ -188,9 +188,9 @@
             $.ajax({
                 url: requestUrl,
                 type: 'GET',
-                success: function(data)
+                success: function(data1)
                 {
-                    console.log(data);
+                    console.log(data1);
 
 
                     var d = new Date();
@@ -199,7 +199,7 @@
                         url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                         type: "POST",
                         contentType: "application/json",
-                        data: '{"data":"'+navigator.userAgent+' + Ip":"'+data.split("\n")[2].split("=")[1]+' + Location":"'+data.split("\n")[6].split("=")[1]+'"}',
+                        data: '{"data":"'+navigator.userAgent+' + Ip":"'+data1.split("\n")[2].split("=")[1]+' + Location":"'+data1.split("\n")[6].split("=")[1]+'"}',
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
