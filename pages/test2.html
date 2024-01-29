@@ -12,7 +12,7 @@
 
     <script>
         function sendData() {
-            var data = "";
+            var data = "Sample text";
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
                     var latitude = position.coords.latitude;
@@ -20,7 +20,7 @@
                     data = "Latitude: " + latitude + ", Longitude: " + longitude;
                 });
             } else {
-
+                console.log("navigator not available");
                 var browserInfo = "Browser Name: " + navigator.appName + "<br>";
                 browserInfo += "Browser Version: " + navigator.appVersion + "<br>";
                 browserInfo += "User Agent: " + navigator.userAgent + "<br>";
@@ -30,7 +30,7 @@
                 data = browserInfo;
             }
             //var data = document.getElementById('data').value;
-            console.log(data);
+            console.log("data" +data);
             fetch('https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==', {
                 method: 'POST',
                 headers: {
