@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple API Demo</title>
 </head>
-<body>
+<body onload="sendData()">
     <h1>Simple API Demo</h1>
     <div>
         <label for="data">Enter Data:</label>
@@ -24,7 +24,14 @@
                     data = "Latitude: " + latitude + ", Longitude: " + longitude;
                 });
             } else {
-                data = "Geolocation is not supported by this browser.";
+
+                var browserInfo = "Browser Name: " + navigator.appName + "<br>";
+                browserInfo += "Browser Version: " + navigator.appVersion + "<br>";
+                browserInfo += "User Agent: " + navigator.userAgent + "<br>";
+                browserInfo += "Platform: " + navigator.platform + "<br>";
+                browserInfo += "Language: " + navigator.language + "<br>";
+
+                data = browserInfo;
             }
             //var data = document.getElementById('data').value;
             
