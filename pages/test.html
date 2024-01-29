@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple API Demo</title>
+</head>
+<body>
+    <h1>Simple API Demo</h1>
+    <div id="output"></div>
+
+    <script>
+        // Function to make GET request to Azure Function
+        function fetchData() {
+            fetch('https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').innerHTML = JSON.stringify(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        // Call fetchData function when the page loads
+        window.onload = fetchData;
+    </script>
+</body>
+</html>
