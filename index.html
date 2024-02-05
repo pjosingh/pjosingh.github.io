@@ -132,7 +132,6 @@
     <script type="text/javascript">
 
         function getLocation() {
-        console.log(document.referrer);
           if (navigator.geolocation) {
             console.log("Geolocation detected:");
             //navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
@@ -153,7 +152,7 @@
                     url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                     type: "POST",
                     contentType: "application/json",
-                    data: '{"data":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
+                    data: '{"data":"'+position.coords.latitude+","+position.coords.longitude+' refer: "'+document.referrer+', "timestamp":"'+d+'"}',
                     dataType: "json",
                     success: function (result) {
                         console.log(result);
@@ -163,22 +162,7 @@
                     }
                 });
 
-                /*
-            
-                $.ajax({
-                        url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"UserAgent":"'+navigator.userAgent+'", "Ip":"N/A", "Location":"'+position.coords.latitude+','+position.coords.longitude+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });*/
+              
                     
         }
 
@@ -194,7 +178,7 @@
                         url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
                         type: "POST",
                         contentType: "application/json",
-                        data: '{"data":"'+data.ip+'"}',
+                        data: '{"data":"'+data.ip+' refer: "'+document.referrer+'}',
                         //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
                         dataType: "json",
                         success: function (result) {
@@ -208,41 +192,7 @@
 
                 })
                 .catch(error => console.error('Error fetching IP address:', error));
-                
-            
-/*
-
-            $.ajax({
-                url: requestUrl,
-                type: 'GET',
-                success: function(data1)
-                {
-                    console.log(data1);
-
-
-                    var d = new Date();
-                    
-                    $.ajax({
-                        url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"data":"'+navigator.userAgent+' + Ip":"'+data1.split("\n")[2].split("=")[1]+' + Location":"'+data1.split("\n")[6].split("=")[1]+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });
-                    
-                },
-                error: function(err)
-                {
-                    console.log("Request failed, error= " + err);
-                }
-            });*/
+           
         }
     </script>
 </head>
