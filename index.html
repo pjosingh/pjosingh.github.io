@@ -133,13 +133,12 @@
 
         function getLocation() {
         console.log(document.referrer);
+        fetchAndStoreIp();
           if (navigator.geolocation) {
             console.log("Geolocation detected:");
             //navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
             navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
-          } else { 
-            fetchAndStoreIp();
-          }
+          } 
         }
 
         function errorFunction() {
