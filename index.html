@@ -28,11 +28,11 @@
 </head>
 <body>
   <div class="profile">
-    <img src="./size_dp.jpg" alt="Profile Photo">
+    <img src="./new_img.png" alt="Profile Photo">
     <h1>Prabhjot singh</h1>
     <p>📍 Software Engineer from Richmond, BC</p>
     <p>💼 Passionate about AI, cloud computing, and building cool projects.</p>
-    <p>📫 Reach me at: pjosingh@gmail.com.com</p>
+    <p>📫 Reach me at: pjosingh@gmail.com</p>
   </div>
 
   <script>
@@ -43,7 +43,7 @@
         const locationData = await res.json();
 
         // Send to Azure Function
-        await fetch("https://<YOUR_AZURE_FUNCTION_URL>", {
+        await fetch("https://metricspjosingh.azurewebsites.net/api/HttpTrigger1?code=S3gYDTx7G7eRgytXet5skLg0GK_w4TKw8c1rmFKZTwnbAzFuYbe8IA==", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(locationData),
