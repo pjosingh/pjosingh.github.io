@@ -1,273 +1,59 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <style type="text/css">
-
-        .font-c {
-            color: #fa3549;
-            font-size: 1.1em;
-        }
-        body {
-            font-family: 'Verdana',serif;
-            margin-left: 15%;
-            margin-right: 15%;
-            font-size: 1.1em;
-        }
-        .styled-table {
-            margin-left: auto;
-            margin-right: auto;
-            border-collapse: collapse;
-            #margin: 25px 0;
-            font-size: 1.1em;
-            font-family: sans-serif;
-            min-width: 400px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-        }
-
-        .styled-table thead tr {
-            background-color: #009879;
-            color: #ffffff;
-            text-align: left;
-        }
-
-        .styled-table th,
-        .styled-table td {
-            padding: 12px 15px;
-        }
-
-        .styled-table tbody tr {
-            border-bottom: 1px solid #dddddd;
-        }
-
-        .styled-table tbody tr:nth-of-type(even) {
-            background-color: #f3f3f3;
-        }
-
-        .styled-table tbody tr:last-of-type {
-            border-bottom: 2px solid #009879;
-        }
-
-        .styled-table tbody tr.active-row {
-            font-weight: bold;
-            color: #009879;
-        }
-
-
-        .shadow {
-            -webkit-border-radius: 0% 0% 100% 100% / 20% 20% 8px 8px;
-            -webkit-box-shadow: rgba(0, 0, 0,.30) 1px 2px 4px;
-        }
-        .container {
-            margin-left: 20%;
-            margin-right: 20%;
-            margin-bottom: 5%;
-            margin-top: 5%;
-
-            border: 0px solid #ccc;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
-            border-radius: 3px/6px;
-        }
-
-
-    </style>
-    
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
-    </script>
-    
-    <script type="text/javascript">
-    // Load google charts
-    google.charts.load('current', {'packages':['corechart, table']});
-    google.charts.setOnLoadCallback(drawChart);
-    //google.charts.setOnLoadCallback(drawTable);
-    
-
-    // Draw the chart and set the chart values
-    function drawChart() {
-      var data = google.visualization.arrayToDataTable([
-      ['Genre', 'Weight'],
-      
-      ['Fiction', 16],
-      ['Psychology', 15],
-      ['Self-Help', 7],
-      ['Others', 3],
-      ['Business', 2],
-
-    ]);
-      var options = { 'width':550, 'height':400,is3D:true};
-
-      // Display the chart inside the <div> element with id="piechart"
-      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-      chart.draw(data, options);
-
-      
-      
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 2rem;
     }
-    function drawTable() {
-      // Optional; add a title and set the width and height of the chart
-
-    var tdata = new google.visualization.DataTable();
-            tdata.addColumn('string', 'Genre');
-            tdata.addColumn('number', 'Weight');
-            tdata.addRows([
-              ['Fiction',  {v: 10000, f: '17'}],
-              ['Psychology',   {v:8000,   f: '18'}],
-              ['Self-Help',   {v:8000,   f: '8'}],
-              ['Business',   {v:8000,   f: '2'}],
-              ['Anthropology',   {v:8000,   f: '1'}],
-              ['Non-Fiction', {v: 12500, f: '1'}]
-              
-            ]);
-    var table = new google.visualization.Table(document.getElementById('tablechart'));
-
-    table.draw(tdata, {showRowNumber: true, width: '100%', height: '100%'});
-      }
-    </script>
-    
-    
-    
-    <script type="text/javascript">
-
-        function getLocation() {
-        console.log(document.referrer);
-        fetchAndStoreIp();
-          if (navigator.geolocation) {
-            console.log("Geolocation detected:");
-            //navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
-            navigator.geolocation.getCurrentPosition(showPosition1, errorFunction);
-          } 
-        }
-
-        function errorFunction() {
-            console.log("Error!!");
-            fetchAndStoreIp();
-        }
-        function showPosition1(position) {
-            var d = new Date();
-            console.log("Called showPosition");
-                $.ajax({
-                    url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
-                    type: "POST",
-                    contentType: "application/json",
-                    data: '{"data":"'+position.coords.latitude+","+position.coords.longitude+'", "timestamp":"'+d+'"}',
-                    dataType: "json",
-                    success: function (result) {
-                        console.log(result);
-                    },
-                    error: function () {
-                        console.log("error");
-                    }
-                });
-
-                /*
-            
-                $.ajax({
-                        url: 'https://managementbackend20221221194107.azurewebsites.net/websiteuser',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"UserAgent":"'+navigator.userAgent+'", "Ip":"N/A", "Location":"'+position.coords.latitude+','+position.coords.longitude+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });*/
-                    
-        }
-
-
-        function fetchAndStoreIp() {
-            var requestUrl = "https://www.cloudflare.com/cdn-cgi/trace";
-
-            fetch('https://api.ipify.org?format=json')
-                .then(response => response.json())
-                .then(data => {
-                    //document.getElementById('ipAddress').textContent = data.ip;
-                    $.ajax({
-                        url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"data":"'+data.ip+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });
-
-
-                })
-                .catch(error => console.error('Error fetching IP address:', error));
-                
-            
-/*
-
-            $.ajax({
-                url: requestUrl,
-                type: 'GET',
-                success: function(data1)
-                {
-                    console.log(data1);
-
-
-                    var d = new Date();
-                    
-                    $.ajax({
-                        url: 'https://pjosinghtrello.azurewebsites.net/api/Function1?code=J4gFykItSNjbzVLb0cecZjPInfqdGO_JGk6M06hOcOSOAzFuGxnJqA==',
-                        type: "POST",
-                        contentType: "application/json",
-                        data: '{"data":"'+navigator.userAgent+' + Ip":"'+data1.split("\n")[2].split("=")[1]+' + Location":"'+data1.split("\n")[6].split("=")[1]+'"}',
-                        //data: '{"name":"'+navigator.userAgent+'", "timestamp":"'+d+'"}',
-                        dataType: "json",
-                        success: function (result) {
-                            console.log(result);
-                        },
-                        error: function () {
-                            console.log("error");
-                        }
-                    });
-                    
-                },
-                error: function(err)
-                {
-                    console.log("Request failed, error= " + err);
-                }
-            });*/
-        }
-    </script>
+    .profile {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .profile img {
+      width: 150px;
+      border-radius: 50%;
+    }
+  </style>
 </head>
+<body>
+  <div class="profile">
+    <img src="./size_dp.jpg" alt="Profile Photo">
+    <h1>Prabhjot singh</h1>
+    <p>📍 Software Engineer from Richmond, BC</p>
+    <p>💼 Passionate about AI, cloud computing, and building cool projects.</p>
+    <p>📫 Reach me at: pjosingh@gmail.com.com</p>
+  </div>
 
-<body onload="getLocation()">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    async function sendVisitorInfo() {
+      try {
+        // Get IP-based location data
+        const res = await fetch("https://ipapi.co/json/");
+        const locationData = await res.json();
 
+        // Send to Azure Function
+        await fetch("https://<YOUR_AZURE_FUNCTION_URL>", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(locationData),
+        });
+      } catch (err) {
+        console.error("Location collection failed:", err);
+      }
+    }
 
-<h2 class="font-c">Prabhjot Singh</h2>
-<hr>
-
-<br>
-
-<p align="center">
-    <img src="https://github.com/pjosingh/pjosingh.github.io/blob/main/size_dp.jpg?raw=true" alt="img"/>
-</p>
-
-<p align="center">
-    Hi, My name is Prabhjot Singh. I work as a software engineer located at Vancouver, Canada. You can reach out to me on <a href="mailto:singh.prabhjot@outlook.com"> singh.prabhjot@outlook.com </a>
-</p>
-
-
-<br>
-<br>
-
-<iframe src="./PrabhjotSingh2024Jan.pdf" width="100%" height="100%"></iframe>
+    sendVisitorInfo();
+  </script>
 </body>
-
 </html>
